@@ -86,7 +86,7 @@ html {
 }
 body {
 	font-family: "Nunito", Arial, Helvetica, sans-serif;
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 400;
 	background: #555;
 	color: #ddd;
@@ -4486,6 +4486,9 @@ video, object {
 }
 .img-responsive {
 	display: inline-block;
+	border-radius: 10px;
+	margin-bottom: 3rem;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 .img-shadow {
 	-webkit-box-shadow: 8px 8px 40px 0px rgba(0, 0, 0, 0.3);
